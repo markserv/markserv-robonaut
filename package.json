@@ -1,5 +1,6 @@
 {
     "robonautDeps": [
+        "markserv-contrib-mod.file",
         "markserv-cli",
         "markserv-contrib-mod.dir",
         "markserv-contrib-app.github"
