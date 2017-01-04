@@ -1,1 +1,25 @@
-{"name":"markserv-robonaut","version":"1.0.0","description":"Robonaut monorepo for Markserv. One repository to rule them all.","scripts":{"test":"robonaut test"},"repository":{"type":"git","url":"git+https://github.com/markserv/markserv-robonaut.git"},"keywords":["markserv","robonaut","monorepo","robonaut","monorepo","robonaut","monorepo","robonaut","monorepo"],"author":"f1lt3r","license":"MIT","bugs":{"url":"https://github.com/markserv/markserv-robonaut/issues"},"homepage":"https://github.com/markserv/markserv-robonaut#readme","private":true,"dependencies":{"robonaut":"^3.4.6"}}
+{
+  "name": "markserv-robonaut",
+  "version": "1.0.0",
+  "description": "Robonaut monorepo for Markserv. One repository to rule them all.",
+  "scripts": {
+    "test": "robonaut test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markserv/markserv-robonaut.git"
+  },
+  "keywords": [
+    "markserv"
+  ],
+  "author": "f1lt3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markserv/markserv-robonaut/issues"
+  },
+  "homepage": "https://github.com/markserv/markserv-robonaut#readme",
+  "private": true,
+  "dependencies": {
+    "robonaut": "^3.4.6"
+  }
+}
