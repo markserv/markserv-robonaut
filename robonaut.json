@@ -144,6 +144,17 @@
         }
       }
     ],
+	"test": [
+      {
+        "command": "npm",
+        "args": [
+          "test"
+        ],
+        "options": {
+          "cwd": "{{robonaut}}{{dependency}}"
+        }
+      }
+    ],
     "fuse": {
       "link-out": [
         {
