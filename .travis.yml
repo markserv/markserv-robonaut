@@ -3,8 +3,9 @@ node_js:
   - "6.1"
 install:
   - "npm install"
+  - "npm install -g robonaut"
 test:
-  - "npm test"
+  - "robonaut test"
 notifications:
   webhooks:
     urls:
