@@ -5,8 +5,8 @@ install:
   - "npm install"
   - "npm install -g robonaut"
   - "mkdir robonaut"
-test:
   - "robonaut assemble"
+test:
   - "robonaut test"
 notifications:
   webhooks:
