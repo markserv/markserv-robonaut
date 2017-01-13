@@ -3,7 +3,7 @@
     "markserv-cli": {
       "name": "markserv-cli",
       "branch": "test",
-      "commit": "1b74be8f087f7761118c6d5a4de159b35055ae6d",
+      "commit": "bd3f13f11a2ab282ed2cdd80e852367a44c0df72",
       "version": "1.0.63",
       "repository": "ssh://git@github.com/markserv/markserv-cli.git"
     },
@@ -156,6 +156,57 @@
         }
       }
     ],
+    "current": [
+      {
+        "command": "git",
+        "args": [
+          "remote",
+          "update"
+        ],
+        "options": {
+          "cwd": "{{robonaut}}{{dependency}}"
+        }
+      },
+      {
+        "command": "sh",
+        "args": [
+          "-c",
+          "git --no-pager log --ignore-missing HEAD..origin/{{branch}} --oneline --color"
+        ],
+        "options": {
+          "cwd": "{{robonaut}}{{dependency}}",
+          "stdio": "pipe"
+        }
+      }
+    ],
+    "sync": {
+      "git": [
+        {
+          "command": "git",
+          "args": [
+            "pull",
+            "origin",
+            "{{branch}}"
+          ],
+          "options": {
+            "cwd": "{{robonaut}}{{dependency}}"
+          }
+        }
+      ],
+      "npm": [
+        {
+          "command": "git",
+          "args": [
+            "pull",
+            "origin",
+            "master"
+          ],
+          "options": {
+            "cwd": "{{robonaut}}{{dependency}}"
+          }
+        }
+      ]
+    },
     "test": [
       {
         "command": "npm",
