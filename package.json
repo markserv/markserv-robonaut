@@ -20,6 +20,6 @@
   "homepage": "https://github.com/markserv/markserv-robonaut#readme",
   "private": true,
   "dependencies": {
-    "robonaut": "^3.4.6"
+    "robonaut": "^2.1.0-alpha.0"
   }
 }
