@@ -77,6 +77,8 @@
         "command": "git",
         "args": [
           "clone",
+          "-b",
+          "{{projectBranch}}",
           "{{repository}}",
           "-v"
         ],

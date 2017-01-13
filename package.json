@@ -2,9 +2,6 @@
   "name": "markserv-robonaut",
   "version": "1.0.0",
   "description": "Robonaut monorepo for Markserv. One repository to rule them all.",
-  "scripts": {
-    "test": "robonaut test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/markserv/markserv-robonaut.git"
@@ -18,8 +15,5 @@
     "url": "https://github.com/markserv/markserv-robonaut/issues"
   },
   "homepage": "https://github.com/markserv/markserv-robonaut#readme",
-  "private": true,
-  "dependencies": {
-    "robonaut": "^2.1.0-alpha.0"
-  }
+  "private": true
 }
