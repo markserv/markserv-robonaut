@@ -4,70 +4,70 @@
       "name": "markserv-cli",
       "branch": "test",
       "commit": "bd3f13f11a2ab282ed2cdd80e852367a44c0df72",
-      "version": "1.0.73",
+      "version": "1.0.75",
       "repository": "ssh://git@github.com/markserv/markserv-cli.git"
     },
     "markserv-contrib-app.github": {
       "name": "markserv-contrib-app.github",
       "branch": "test",
       "commit": "bab024f5b3598436811e899d4a88a9f462d6e4f7",
-      "version": "1.0.84",
+      "version": "1.0.86",
       "repository": "ssh://git@github.com/markserv/markserv-contrib-app.github.git"
     },
     "markserv-contrib-inc.less": {
       "name": "markserv-contrib-inc.less",
       "branch": "test",
       "commit": "825a2c9461deda0f83831a1a7f00159b32c2fedd",
-      "version": "1.0.14",
+      "version": "1.0.16",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-inc.less.git"
     },
     "markserv-contrib-inc.html": {
       "name": "markserv-contrib-inc.html",
       "branch": "test",
       "commit": "bc76f340b8ab5701fce478434dd9dc66bd63ac83",
-      "version": "1.0.10",
+      "version": "1.0.12",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-inc.html.git"
     },
     "markserv-contrib-inc.markdown": {
       "name": "markserv-contrib-inc.markdown",
       "branch": "test",
       "commit": "392a6807fbb9773699b8793d0dcde147852ce8ab",
-      "version": "1.0.11",
+      "version": "1.0.13",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-inc.markdown.git"
     },
     "markserv-contrib-mod.dir": {
       "name": "markserv-contrib-mod.dir",
       "branch": "test",
       "commit": "ac05293622dd36d53c8f2e154b37129b281d1c29",
-      "version": "1.0.16",
+      "version": "1.0.18",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-mod.dir.git"
     },
     "markserv-contrib-mod.file": {
       "name": "markserv-contrib-mod.file",
       "branch": "test",
       "commit": "55126b7c313a558e036235beade2b50171e9dfa5",
-      "version": "1.0.19",
+      "version": "1.0.21",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-mod.file.git"
     },
     "markserv-contrib-mod.markdown": {
       "name": "markserv-contrib-mod.markdown",
       "branch": "test",
       "commit": "71243fb738bbf5784749df8f7df92852c118eb5b",
-      "version": "1.0.14",
+      "version": "1.0.16",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-mod.markdown.git"
     },
     "markserv-contrib-mod.html": {
       "name": "markserv-contrib-mod.html",
       "branch": "test",
       "commit": "a5c07fb342c74c045984db28661ee0a3f783096e",
-      "version": "1.0.9",
+      "version": "1.0.11",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-mod.html.git"
     },
     "markserv-contrib-mod.http-404": {
       "name": "markserv-contrib-mod.http-404",
       "branch": "test",
       "commit": "606522a5aa731060fd66ac9c273255887b08ce1e",
-      "version": "1.0.15",
+      "version": "1.0.17",
       "repository": "ssh://git@github.com/f1lt3r/markserv-contrib-mod.http-404.git"
     }
   },
